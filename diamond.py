@@ -3,10 +3,12 @@ class A:
         print("this method belongs to class A")
 
 class B(A):
-    pass
+    def method(self):
+        print("this method belongs to class B")
 
 class C(A):
-    pass
+    def method(self):
+        print("this method belongs to class C")
 
 class D(B, C):
     pass
